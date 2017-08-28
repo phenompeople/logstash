@@ -13,6 +13,6 @@ ADD logstash.repo /etc/yum.repos.d/logstash.repo
 RUN yum install -y -q logstash-${PACKAGE_VERSION}-1 && \
     rm -rf /etc/yum.repos.d/logstash.repo && \
     yum clean all
-COPY log4j.properties /etc/logstash/log4j2.properties
+COPY config/log4j.properties /etc/logstash/log4j2.properties
 VOLUME /etc/logstash/conf.d
 ENTRYPOINT ["/usr/share/logstash/bin/logstash", "--path.settings", "/etc/logstash"]

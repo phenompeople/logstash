@@ -3,9 +3,9 @@ FROM phenompeople/centos-sunjre:latest
 MAINTAINER Rajesh Jonnalagadda "admin.squad@phenompeople.com"
 LABEL Description="Logstash Docker image based on Centos 7" \
 	  License="Apache License 2.0" \
-	  Version="5.5.2" \
+	  Version="5.3.0" \
 	  project="logstash"
-ARG PACKAGE_VERSION=5.5.2
+ARG PACKAGE_VERSION=5.3.0
 ENV container docker \
     PACKAGE_VERSION=${PACKAGE_VERSION}
 EXPOSE 5004

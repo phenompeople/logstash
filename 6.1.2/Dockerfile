@@ -13,4 +13,4 @@ RUN groupadd -g 406 logstash && \
 	wget -q -O /tmp/logstash.tar.gz https://artifacts.elastic.co/downloads/logstash/logstash-${LOGSTASH_VERSION}.tar.gz && \
 	tar -xzf /tmp/logstash.tar.gz -C /usr/local && \
 	ln -sf /usr/local/logstash-${LOGSTASH_VERSION} ${APP_HOME}
-ENTRYPOINT ["/usr/local/logstash/bin/logstash", "--path.settings", "/usr/local/logstash/config"]
+ENTRYPOINT ["/usr/local/logstash/bin/logstash", "--path.config", "/etc/logstash/conf.d"]

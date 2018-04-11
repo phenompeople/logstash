@@ -11,12 +11,9 @@ Dockerfiles for building Centos based Logstash images.
 
 ### phenompeople/logstash
 
-* **`latest`   ([6.1.2/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/6.1.2/Dockerfile))**
+* **`latest`    ([6.2.3/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/6.2.3/Dockerfile))**
+* **`6.2.3` 		([6.2.3/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/6.2.3/Dockerfile))**
 * **`6.1.2` 		([6.1.2/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/6.1.2/Dockerfile))**
-* **`5.6.2` 		([5.6.2/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/5.6.2/Dockerfile))**
-* **`5.5.2` 		([5.5.2/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/5.5.2/Dockerfile))**
-* **`5.4.1` 		([5.4.1/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/5.4.1/Dockerfile))**
-* **`5.3.0` 		([5.3.0/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/5.3.0/Dockerfile))**
 
 ### Pre-Requisites
 

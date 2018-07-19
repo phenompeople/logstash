@@ -13,4 +13,5 @@ RUN groupadd -g 406 logstash && \
 	wget -q -O /tmp/logstash.tar.gz https://artifacts.elastic.co/downloads/logstash/logstash-${LOGSTASH_VERSION}.tar.gz && \
 	tar -xzf /tmp/logstash.tar.gz -C /usr/local && \
 	ln -sf /usr/local/logstash-${LOGSTASH_VERSION} ${APP_HOME}
+RUN /usr/local/logstash/bin/logstash-plugin install logstash-input-jmx
 ENTRYPOINT ["/usr/local/logstash/bin/logstash", "--path.config", "/etc/logstash/conf.d"]

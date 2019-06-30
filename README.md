@@ -1,6 +1,4 @@
-[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/logstash.svg?style=plastic)](https://hub.docker.com/r/phenompeople/logstash/)
-[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/logstash.svg?style=plastic)](https://hub.docker.com/r/phenompeople/logstash/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/logstash.svg?style=plastic)](https://hub.docker.com/r/phenompeople/logstash/)
+[![dockeri.co](http://dockeri.co/image/phenompeople/logstash)](https://registry.hub.docker.com/phenompeople/logstash/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Logstash 
@@ -11,9 +9,9 @@ Dockerfiles for building Centos based Logstash images.
 
 ### phenompeople/logstash
 
-* **`latest`    ([6.5.0/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/6.5.0/Dockerfile))**
-* **`6.5.0` 		([6.5.0/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/6.5.0/Dockerfile))**
-* **`6.3.1` 		([6.3.1/Dockerfile](https://bitbucket.org/phenompeople/logstash/src/master/6.3.1/Dockerfile))**
+* **`latest`    ([7.2.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/7.2.0/Dockerfile))**
+* **`latest`    ([7.2.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/7.2.0/Dockerfile))**
+* **`6.5.0` 	([6.5.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/6.5.0/Dockerfile))**
 
 ### Pre-Requisites
 

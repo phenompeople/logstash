@@ -1,9 +1,9 @@
 #Base image
-FROM phenompeople/centos-sunjre:latest
+FROM phenompeople/oraclejdk:latest
 LABEL maintainer="rajesh.jonnalagadda@phenompeople.com" \
-	  version="6.3.0" \
+	  version="7.2.0" \
 	  project="logstash"
-ARG LOGSTASH_VERSION=6.3.0
+ARG LOGSTASH_VERSION=7.2.0
 ENV container docker \
     LOGSTASH_VERSION=${LOGSTASH_VERSION}
 EXPOSE 5004

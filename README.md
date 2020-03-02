@@ -9,8 +9,9 @@ Dockerfiles for building Centos based Logstash images.
 
 ### phenompeople/logstash
 
-* **`latest`    ([7.2.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/7.2.0/Dockerfile))**
-* **`latest`    ([7.2.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/7.2.0/Dockerfile))**
+* **`latest`    ([7.6.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/7.2.0/Dockerfile))**
+* **`7.6.0`    ([7.2.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/7.6.0/Dockerfile))**
+* **`7.2.0`     ([7.2.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/7.2.0/Dockerfile))**
 * **`6.5.0` 	([6.5.0/Dockerfile](https://github.com/phenompeople/logstash/blob/master/6.5.0/Dockerfile))**
 
 ### Pre-Requisites
@@ -32,6 +33,7 @@ Above command runs logstash container with port 5004 mapped to host and reading 
 ## Maintainers
 
 * Rajesh Jonnalagadda (<rajesh.jonnalagadda@phenompeople.com>)
+* Harshavardhan Baddam (<harshavardhan.baddam@phenompeople.com>)
 
 ## License and Authors
 
